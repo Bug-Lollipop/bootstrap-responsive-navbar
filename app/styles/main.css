@@ -24,6 +24,9 @@ html, body {
   margin: 0;
   padding: 0;
 }
+@import "components/bootstrap";
+@import "components/navbar";
+
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }

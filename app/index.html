@@ -43,260 +43,581 @@
     material.blue-orange.min.css
     material.purple-indigo.min.css
     -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
-
     <!-- Material Design icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
     <!-- Your styles -->
+    <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/jquery-2.1.1.js"></script>
   </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <h3>Web Starter Kit</h3>
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-          <a href="#features" class="mdl-layout__tab">Features</a>
-          <a href="#features" class="mdl-layout__tab">Details</a>
-          <a href="#features" class="mdl-layout__tab">Technology</a>
-          <a href="#features" class="mdl-layout__tab">FAQ</a>
-          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
-            <i class="material-icons" role="presentation">add</i>
-            <span class="visuallyhidden">Add</span>
-          </button>
-        </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview">
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-              <i class="material-icons">play_circle_filled</i>
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <h4>Features</h4>
-                Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-              </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                <h4 class="mdl-cell mdl-cell--12-col">Details</h4>
-                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle mdl-color--primary"></div>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header menu-main">
+                    <button type="button" id="hamburger-menu" class="navbar-toggle collapsed pull-left">
+                        <img src="http://mall.julewu.com/assets/taxon_tag-4fae1e1bd631ce4a373f8b94d6b412d8af20645f8ce97460b77eae242df9c848.png" width="22px" height="22px">
+                      <span>目录</span>
+                    </button>
                 </div>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
-                </div>
-                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle mdl-color--primary"></div>
-                </div>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
-                </div>
-                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle mdl-color--primary"></div>
-                </div>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
-                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- 在首页非折叠情况下，添加class:dropdown-abolish -->
+          <div id="dropdown-control" class="dropdown dropdown-abolish">
+              <a href="#" class="dropdown-toggle " data-toggle="dropdown"><h4>所有商品分类<b class="caret hidden-xs"></b></h4></a>
+              <a id="nav-close" class="hidden-sm hidden-md hidden-lg dropdown-close"><i class="fa fa-times"></i></a>
+              <div class="tab-container dropdown-menu">
+                  <ul class="nav nav-tabs nav-tabs-left " role="tablist">
+                    <li class="nav-hover">
+                      <div href="#taxon_brands">
+                        <i class="taxon-icon brand-icon hidden-xs"></i>
+                        <a href="/brands">全部品牌</a>
+                      </div>
+                    </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_819">
+                         <a href="/products?taxon=819">厨房卫浴</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_863">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=863">瓷砖地板</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_874">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=874">木门门锁</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_882">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=882">橱柜</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_885">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=885">厨电</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_903">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=903">油漆涂料</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_912">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=912">集成吊顶</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_926">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=926">开关插座</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                      <li class="nav-hover">
+                        <div href="#taxon_940">
+                         <i class="taxon-icon hidden-xs"></i>
+                         <a href="/products?taxon=940">灯具</a>
+                         <i class="fa fa-angle-right service-arrow "></i>
+                        </div>
+                      </li>
+                  </ul>
+                  <div class="tab-content nav-tabs-right" id="J_tabContent">
+                    <div class="tab-pane" id="taxon_brands" role="tabpanel" style="opacity: 0"></div>
+                      <div class="tab-pane  tab-shadow" id="taxon_819" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=820">马桶</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=821">分体式</a></p>
+                                        <p><a href="/products?taxon=822">连体式</a></p>
+                                        <p><a href="/products?taxon=973">马桶配件</a></p>
+                                        <p><a href="/products?taxon=1087">智能系列</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=825">台盆</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=826">台上盆</a></p>
+                                        <p><a href="/products?taxon=827">台下盆</a></p>
+                                        <p><a href="/products?taxon=828">立柱盆</a></p>
+                                        <p><a href="/products?taxon=835">台盆龙头</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=829">水槽</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=1033">厨盆套餐</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=838">淋浴花洒</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=840">手持花洒</a></p>
+                                        <p><a href="/products?taxon=842">淋浴柱套餐</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=843">厨卫五金</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=844">厨卫五金配件</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=849">浴室柜</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=851">浴室柜组合</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=983">其他</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=1088">卫浴配件</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=28"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/科勒.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=814"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/TOTO.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=29"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/摩恩.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=77"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/和成.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=37"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/鹰卫浴.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=807"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/安住.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=798"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/贝朗.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=27"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/美标.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_863" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=864">瓷砖</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=865">釉面砖</a></p>
+                                        <p><a href="/products?taxon=866">玻化砖</a></p>
+                                        <p><a href="/products?taxon=867">仿古砖</a></p>
+                                        <p><a href="/products?taxon=868">抛釉砖</a></p>
+                                        <p><a href="/products?taxon=869">微晶砖</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=870">地板</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=871">多层实木复合地板</a></p>
+                                        <p><a href="/products?taxon=872">强化复合地板</a></p>
+                                        <p><a href="/products?taxon=873">踢脚线</a></p>
+                                        <p><a href="/products?taxon=1044">实木地板</a></p>
+                                        <p><a href="/products?taxon=1045">地板配件</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=23"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/圣象地板.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=72"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/书香门地.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=159"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/德尔.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=166"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/东鹏.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=73"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/博德.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=794"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/亚细亚.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=800"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/诺贝尔.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=804"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/蒙娜丽莎.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=809"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/斯米克.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1068"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/力丰.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_874" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=1107">木门</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=875">实木复合门</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=877">附件</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=878">锁具</a></p>
+                                        <p><a href="/products?taxon=879">门吸</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=806"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/江山欧派.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=157"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/康e木门.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=797"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/派的.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=803"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/日门.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=154"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/名门五金.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1067"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/帝尧.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1075"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/昆榕.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1125"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/麦韦.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_882" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=883">整体橱柜</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=884">厨柜套餐</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=25"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/海尔.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=802"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/耀新.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=957"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/南希.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=956"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/柏厨.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1042"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/达尔曼.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_885" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=886">烟机灶具</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=887">烟灶套餐</a></p>
+                                        <p><a href="/products?taxon=888">油烟机</a></p>
+                                        <p><a href="/products?taxon=889">燃气灶</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=892">热水器</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=893">燃气热水器</a></p>
+                                        <p><a href="/products?taxon=1080">电热水器</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=898">嵌入式电器</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=1062">消毒柜</a></p>
+                                        <p><a href="/products?taxon=978">电烤箱</a></p>
+                                        <p><a href="/products?taxon=1097">蒸箱</a></p>
+                                        <p><a href="/products?taxon=899">洗碗机</a></p>
+                                        <p><a href="/products?taxon=1098">嵌入式微波炉</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=31"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/方太.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=158"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/老板.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=78"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/能率.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=799"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/美的.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=170"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/伊莱克斯.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=960"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/海尔2.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1074"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/华帝.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_903" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=904">内墙乳胶漆</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=905">内墙底漆</a></p>
+                                        <p><a href="/products?taxon=906">内墙面漆</a></p>
+                                        <p><a href="/products?taxon=955">内墙一底两面套装</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=908">外墙乳胶漆</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=952">外墙底漆</a></p>
+                                        <p><a href="/products?taxon=951">外墙面漆</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=909">木器漆</a></dt>
+                                      <dd>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=911">基漆</a></dt>
+                                      <dd>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=1035">涂料服务</a></dt>
+                                      <dd>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=80"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/多乐士.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=18"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/立邦.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=164"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/都芳.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=81"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/大师.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=793"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/骆驼.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_912" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=918">扣板模块</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=1101">吊顶套餐</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=919">电器模块</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=920">风暖型</a></p>
+                                        <p><a href="/products?taxon=921">灯暖型</a></p>
+                                        <p><a href="/products?taxon=1022">换气扇</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=923">照明模块</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=924">LED平板照明</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=765"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/奥普.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=795"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/德尔吊顶.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=787"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/欧普吊顶.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_926" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=927">开关</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=928">双控开关</a></p>
+                                        <p><a href="/products?taxon=929">单控开关</a></p>
+                                        <p><a href="/products?taxon=962">开关其它</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=932">插座</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=933">电源插座</a></p>
+                                        <p><a href="/products?taxon=934">带开关电源插座</a></p>
+                                        <p><a href="/products?taxon=935">弱电插座</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=937">开关套餐</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=1103">睿致系列</a></p>
+                                        <p><a href="/products?taxon=1104">远景系列</a></p>
+                                        <p><a href="/products?taxon=1106">悦动系列</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=1091">开关系列</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=1092">西门子睿致</a></p>
+                                        <p><a href="/products?taxon=1093">西门子远景</a></p>
+                                        <p><a href="/products?taxon=1094">西门子品宜</a></p>
+                                        <p><a href="/products?taxon=1095">西门子悦动</a></p>
+                                        <p><a href="/products?taxon=1123">施耐德绎尚</a></p>
+                                        <p><a href="/products?taxon=1126">施耐德丰尚</a></p>
+                                        <p><a href="/products?taxon=1127">施耐德如意</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=801"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/西门子.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=26"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/西蒙.png"></a>
+                                      </li>
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=1124"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/施耐德.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane" id="taxon_940" role="tabpanel">
+                          <div class="row">
+                              <div class="col-md-12 col-xs-12">
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=941">吸顶灯</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=942">厨卫灯</a></p>
+                                        <p><a href="/products?taxon=943">餐厅灯</a></p>
+                                        <p><a href="/products?taxon=944">卧室灯</a></p>
+                                      </dd>
+                                  </dl>
+                                  <dl class="dl-horizontal">
+                                      <dt class="sub-title"><a href="/products?taxon=945">LED</a></dt>
+                                      <dd>
+                                        <p><a href="/products?taxon=946">灯带</a></p>
+                                        <p><a href="/products?taxon=947">射灯</a></p>
+                                        <p><a href="/products?taxon=1028">筒灯</a></p>
+                                        <p><a href="/products?taxon=950">配件</a></p>
+                                      </dd>
+                                  </dl>
+                              </div>
+                              <div class="col-lg-12 col-md-12  col-xs-12 pane-logo-list">
+                                  <h5 class="hidden-lg">合作品牌</h5>
+                                  <ul class="list-unstyled row">
+                                      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                                        <a href="/products?ls=list&amp;taxon=21"><img class="img-responsive" src="http://mall.julewu.com/assets/brands/欧普.png"></a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text">
-                <h4>Technology</h4>
-                Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim.
-              </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
-          </section>
-          <section class="section--footer mdl-color--white mdl-grid">
-            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
-            </div>
-            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>Lorem ipsum dolor sit amet</h5>
-              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
-            </div>
-            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
-            </div>
-            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>Lorem ipsum dolor sit amet</h5>
-              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
-            </div>
-          </section>
-        </div>
-        <div class="mdl-layout__tab-panel" id="features">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>Features</h4>
-              Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
-              <ul class="toc">
-                <h4>Contents</h4>
-                <a href="#lorem1">Lorem ipsum</a>
-                <a href="#lorem2">Lorem ipsum</a>
-                <a href="#lorem3">Lorem ipsum</a>
-                <a href="#lorem4">Lorem ipsum</a>
-                <a href="#lorem5">Lorem ipsum</a>
-              </ul>
-
-              <h5 id="lorem1">Lorem ipsum dolor sit amet</h5>
-              Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
-              <ul>
-                <li>Nisi qui nisi duis commodo duis reprehenderit consequat velit aliquip.</li>
-                <li>Dolor consectetur incididunt in ipsum laborum non et irure pariatur excepteur anim occaecat officia sint.</li>
-                <li>Lorem labore proident officia excepteur do.</li>
-              </ul>
-
-              <p>
-                Sit qui est voluptate proident minim cillum in aliquip cupidatat labore pariatur id tempor id. Proident occaecat occaecat sint mollit tempor duis dolor cillum anim. Dolore sunt ea mollit fugiat in aliqua consequat nostrud aliqua ut irure in dolore. Proident aliqua culpa sint sint exercitation. Non proident occaecat reprehenderit veniam et proident dolor id culpa ea tempor do dolor. Nulla adipisicing qui fugiat id dolor. Nostrud magna voluptate irure veniam veniam labore ipsum deserunt adipisicing laboris amet eu irure. Sunt dolore nisi velit sit id. Nostrud voluptate labore proident cupidatat enim amet Lorem officia magna excepteur occaecat eu qui. Exercitation culpa deserunt non et tempor et non.
-              </p>
-              <p>
-                Do dolor eiusmod eu mollit dolore nostrud deserunt cillum irure esse sint irure fugiat exercitation. Magna sit voluptate id in tempor elit veniam enim cupidatat ea labore elit. Aliqua pariatur eu nulla labore magna dolore mollit occaecat sint commodo culpa. Eu non minim duis pariatur Lorem quis exercitation. Sunt qui ex incididunt sit anim incididunt sit elit ad officia id.
-              </p>
-              <p id="lorem2">
-                Tempor voluptate ex consequat fugiat aliqua. Do sit et reprehenderit culpa deserunt culpa. Excepteur quis minim mollit irure nulla excepteur enim quis in laborum. Aliqua elit voluptate ad deserunt nulla reprehenderit adipisicing sint. Est in eiusmod exercitation esse commodo. Ea reprehenderit exercitation veniam adipisicing minim nostrud. Veniam dolore ex ea occaecat non enim minim id ut aliqua adipisicing ad. Occaecat excepteur aliqua tempor cupidatat aute dolore deserunt ipsum qui incididunt aliqua occaecat sit quis. Culpa sint aliqua aliqua reprehenderit veniam irure fugiat ea ad.
-              </p>
-              <p>
-                Eu minim fugiat laborum irure veniam Lorem aliqua enim. Aliqua veniam incididunt consequat irure consequat tempor do nisi deserunt. Elit dolore ad quis consectetur sint laborum anim magna do nostrud amet. Ea nulla sit consequat quis qui irure dolor. Sint deserunt excepteur consectetur magna irure. Dolor tempor exercitation dolore pariatur incididunt ut laboris fugiat ipsum sunt veniam aute sunt labore. Non dolore sit nostrud eu ad excepteur cillum eu ex Lorem duis.
-              </p>
-              <p>
-                Id occaecat velit non ipsum occaecat aliqua quis ut. Eiusmod est magna non esse est ex incididunt aute ullamco. Cillum excepteur sint ipsum qui quis velit incididunt amet. Qui deserunt anim enim laborum cillum reprehenderit duis mollit amet ad officia enim. Minim sint et quis aliqua aliqua do minim officia dolor deserunt ipsum laboris. Nulla nisi voluptate consectetur est voluptate et amet. Occaecat ut quis adipisicing ad enim. Magna est magna sit duis proident veniam reprehenderit fugiat reprehenderit enim velit ex. Ullamco laboris culpa irure aliquip ad Lorem consequat veniam ad ipsum eu. Ipsum culpa dolore sunt officia laborum quis.
-              </p>
-
-              <h5 id="lorem3">Lorem ipsum dolor sit amet</h5>
-
-              <p id="lorem4">
-                Eiusmod nulla aliquip ipsum reprehenderit nostrud non excepteur mollit amet esse est est dolor. Dolore quis pariatur sit consectetur veniam esse ullamco duis Lorem qui enim ut veniam. Officia deserunt minim duis laborum dolor in velit pariatur commodo ullamco eu. Aute adipisicing ad duis labore laboris do mollit dolor cillum sunt aliqua ullamco. Esse tempor quis cillum consequat reprehenderit. Adipisicing proident anim eu sint elit aliqua anim dolore cupidatat fugiat aliquip qui.
-              </p>
-              <p id="lorem5">
-                Nisi eiusmod esse cupidatat excepteur exercitation ipsum reprehenderit nostrud deserunt aliqua ullamco. Anim est irure commodo eiusmod pariatur officia. Est dolor ipsum excepteur magna aliqua ad veniam irure qui occaecat eiusmod aute fugiat commodo. Quis mollit incididunt amet sit minim velit eu fugiat voluptate excepteur. Sit minim id pariatur ex cupidatat cupidatat nostrud nostrud ipsum.
-              </p>
-              <p>
-                Enim ea officia excepteur ad veniam id reprehenderit eiusmod esse mollit consequat. Esse non aute ullamco Lorem aliqua qui dolore irure eiusmod aute aliqua proident labore aliqua. Ipsum voluptate voluptate exercitation laborum deserunt nulla elit aliquip et minim ex veniam. Duis cupidatat aute sunt officia mollit dolor ad elit ad aute labore nostrud duis pariatur. In est sint voluptate consectetur velit ea non labore. Ut duis ea aliqua consequat nulla laboris fugiat aute id culpa proident. Minim eiusmod laboris enim Lorem nisi excepteur mollit voluptate enim labore reprehenderit officia mollit.
-              </p>
-              <p>
-                Cupidatat labore nisi ut sunt voluptate quis sunt qui ad Lorem esse nisi. Ex esse velit ullamco incididunt occaecat dolore veniam tempor minim adipisicing amet. Consequat in exercitation est elit anim consequat cillum sint labore cillum. Aliquip mollit laboris ad labore anim.
-              </p>
-            </div>
-          </section>
-        </div>
-        <footer class="mdl-mega-footer">
-          <div class="mdl-mega-footer--middle-section">
-            <div class="mdl-mega-footer--drop-down-section">
-              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-              <h1 class="mdl-mega-footer--heading">Features</h1>
-              <ul class="mdl-mega-footer--link-list">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Updates</a></li>
-              </ul>
-            </div>
-            <div class="mdl-mega-footer--drop-down-section">
-              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-              <h1 class="mdl-mega-footer--heading">Details</h1>
-              <ul class="mdl-mega-footer--link-list">
-                <li><a href="#">Spec</a></li>
-                <li><a href="#">Tools</a></li>
-                <li><a href="#">Resources</a></li>
-              </ul>
-            </div>
-            <div class="mdl-mega-footer--drop-down-section">
-              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-              <h1 class="mdl-mega-footer--heading">Technology</h1>
-              <ul class="mdl-mega-footer--link-list">
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Patterns</a></li>
-                <li><a href="#">Usage</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contracts</a></li>
-              </ul>
-            </div>
-            <div class="mdl-mega-footer--drop-down-section">
-              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-              <h1 class="mdl-mega-footer--heading">FAQ</h1>
-              <ul class="mdl-mega-footer--link-list">
-                <li><a href="#">Questions</a></li>
-                <li><a href="#">Answers</a></li>
-                <li><a href="#">Contact us</a></li>
-              </ul>
-            </div>
           </div>
-          <div class="mdl-mega-footer--bottom-section">
-            <div class="mdl-logo">
-              More Information
-            </div>
-            <ul class="mdl-mega-footer--link-list">
-              <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Privacy and Terms</a></li>
-            </ul>
-          </div>
-        </footer>
-      </main>
+        </div>
+      </div>
     </div>
 
-    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="scripts/bootstrap.js"></script>
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
+     <script src="scripts/side_nav.js"></script>
     <!-- endbuild -->
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-XXXXX-X', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <!-- Built with love using Web Starter Kit -->
   </body>
 </html>
